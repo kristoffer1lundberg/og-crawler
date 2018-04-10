@@ -2,8 +2,6 @@
 
 Fetches some basic OpenGraph data from a URL and makes it accessible from a Twig variable.
 
-![Screenshot](resources/img/plugin-logo.png)
-
 ## Requirements
 
 This plugin requires Craft CMS 3.0.0 or later.
@@ -52,5 +50,3 @@ To install the plugin, follow these instructions.
 ## Credit
 
 Based on the [OpenGraph Protocol Helper](https://github.com/scottmac/opengraph) by Scott MacVicar
-
-Icon by Amos Kofi Commey
