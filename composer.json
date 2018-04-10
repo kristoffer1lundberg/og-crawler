@@ -1,0 +1,40 @@
+{
+    "name": "kristoffer1lundberg/ogcrawler",
+    "description": "Fetches some basic OpenGraph data from a URL.",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "ogcrawler"
+    ],
+    "support": {
+        "docs": "https://github.com/kristoffer1lundberg/og-crawler/blob/master/README.md",
+        "issues": "https://github.com/kristoffer1lundberg/og-crawler/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristoffer Lundberg",
+            "homepage": "http://bleed.com/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "kristoffer1lundberg\\ogcrawler\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "ogCrawler",
+        "handle": "og-crawler",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/kristoffer1lundberg/og-crawler/master/CHANGELOG.md",
+        "class": "kristoffer1lundberg\\ogcrawler\\OgCrawler"
+    }
+}
